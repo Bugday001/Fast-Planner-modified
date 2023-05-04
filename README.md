@@ -1,5 +1,13 @@
 # Fast-Planner
+在[fast-planner](https://github.com/HKUST-Aerial-Robotics/Fast-Planner)基础上修改，适用自己的场景。主要修改yaw规划，接受航向，而不是一直朝着飞行方向。其次，修改了避障，保证无路径的时候悬停在原地。
+target 发布参考`sendPath.py`
 
+****
+<center style="font-size: 16px;color: gray;">分界线 以下为原README</center>
+
+****
+
+# Fast-Planner
 **Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. 
 
 **News**: 
